@@ -17,7 +17,8 @@ public class GridSquare {
       case GameType.FOOD://食物
         return Color.GREEN;
       case GameType.SNAKE://蛇
-        return Color.parseColor("#FF0088");
+        return Color.parseColor("#FF0088")
+                ;
     }
     return Color.WHITE;
   }
