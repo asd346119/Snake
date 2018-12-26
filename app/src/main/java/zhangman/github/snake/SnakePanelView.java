@@ -14,10 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by zhangman on 2018/1/8 14:43.
- * Email: zhangman523@126.com
- */
+
 
 public class SnakePanelView extends View {
   private final static String TAG = SnakePanelView.class.getSimpleName();
@@ -26,8 +23,9 @@ public class SnakePanelView extends View {
   private List<List<GridSquare>> mGridSquare = new ArrayList<>();
   private List<GridPosition> mSnakePositions = new ArrayList<>();
 
-  private GridPosition mSnakeHeader;//蛇头部位置
-  private GridPosition mFoodPosition;//食物的位置
+  private GridPosition mSnakeHeader;
+
+  private GridPosition mFoodPosition;
   private int mSnakeLength = 3;
   private long mSpeed = 8;
   private int mSnakeDirection = GameType.RIGHT;
